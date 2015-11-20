@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">		
+		<meta name="author" content="Exception Solutions">
+		<title>Exceptio Scroll Active </title>
+
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/exScrollActive.js"></script>
+
+		<script type="text/javascript">
+			exScrollActive('scrollActive','active');
+		</script>		
+	</head>
+	
+	<body>
+		<!-- Main container start -->
+		<div class="container-fluid">
+			<!-- Main row start -->
+			<div class="row">
+				<nav class="navbar navbar-default navbar-fixed-top">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">
+								exScrollActive
+							</a>
+						</div>
+						<div class="collapse navbar-collapse" id="mainNav">
+							<ul class="nav navbar-nav">
+								<li class="active">
+									<a class="scrollActive" data-scrollBefore="150" data-scrollClass="active" href="#row1">Row1</a>
+								</li>
+								<li>
+									<a class="scrollActive" data-scrollBefore="150" data-scrollClass="active" href="#row2">Row2</a>
+								</li>
+								<li>
+									<a class="scrollActive" data-scrollBefore="150" data-scrollClass="active" href="#row3">Row3</a>
+								</li>
+								<li>
+									<a class="scrollActive" data-scrollBefore="150" data-scrollClass="active" href="#row4">Row4</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+				<!-- Main wraper start -->
+				<div class="col-md-10 col-md-offset-1 col-sm-12 col-xs-offset-0 col-xs-12 col-xs-offset-0" style="margin-top:50px;">					
+					<div class="row" id="row1">
+						<div class="col-xs-12" style="min-height:600px;">
+							Row1
+						</div>
+					</div>
+					<div class="row" id="row2">
+						<div class="col-xs-12" style="min-height:600px;">
+							Row2
+						</div>
+					</div>
+					<div class="row" id="row3">
+						<div class="col-xs-12" style="min-height:600px;">
+							Row3
+						</div>
+					</div>
+					<div class="row" id="row4">
+						<div class="col-xs-12" style="min-height:600px;">
+							Row4
+						</div>
+					</div>					
+
+				
+				</div>
+				<!-- Main wraper end -->
+			</div>
+			<!-- Main row end -->
+		</div>
+		<!-- Main container end -->
+	</body>
+</html>

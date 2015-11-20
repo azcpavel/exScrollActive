@@ -1,2 +1,13 @@
-# exScrollActive
-Auto active menu on window scroll
+Exceptio Scroll Active
+==============================
+
+Simple jQuery auto active menu on scroll
+
+```
+	
+	$(document).ready(function(){
+		exScrollActive('scrollActive','active');			
+	});			
+		
+
+```
